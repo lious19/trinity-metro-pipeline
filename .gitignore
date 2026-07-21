@@ -1,0 +1,5 @@
+﻿venv/
+data/raw/
+*.msgpack
+__pycache__/
+.dbt/

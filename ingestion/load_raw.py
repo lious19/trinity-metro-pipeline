@@ -2,7 +2,8 @@ import pandas as pd
 import glob, os
 from sqlalchemy import create_engine
 
-engine = create_engine("postgresql://postgres:trusts@localhost:5432/trinity_metro")
+import os
+engine = create_engine(f"postgresql://postgres:{os.environ['Xangelina.19']}@localhost:5432/trinity_metro")
 
 for f in glob.glob("data/raw/*.txt"):
     table = "raw_" + os.path.basename(f).replace(".txt", "")

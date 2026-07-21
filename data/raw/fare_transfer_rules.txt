@@ -1,5 +1,0 @@
-from_leg_group_id,to_leg_group_id,duration_limit,fare_transfer_type
-Free,default,,2
-default,Free,,2
-Grapevine,default,,2
-default,Grapevine,,2
