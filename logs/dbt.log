@@ -75,3 +75,18 @@ Happy modeling!
 [0m19:00:09.169918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016EDCDDF100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016EDD5EBBF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016EDB265AE0>]}
 [0m19:00:09.171488 [debug] [MainThread]: Flushing usage events
 [0m19:00:10.297473 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:55:41.396641 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180A91A0590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180A675CE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180AB72B890>]}
+
+
+============================== 08:55:41.426821 | 96f1966f-4249-49da-a9cf-d858da7523f6 ==============================
+[0m08:55:41.426821 [info ] [MainThread]: Running with dbt=1.12.0
+[0m08:55:41.427779 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\megan\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run', 'log_path': 'logs'}
+[0m08:55:41.428450 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\megan\trinity-metro-pipeline\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m08:55:41.429341 [debug] [MainThread]: Command `dbt run` failed at 08:55:41.429216 after 0.42 seconds
+[0m08:55:41.429757 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180AB6DCD60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180AB7AC4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180AB73F240>]}
+[0m08:55:41.430175 [debug] [MainThread]: Flushing usage events
+[0m08:55:42.590414 [debug] [MainThread]: An error was encountered while trying to flush usage events
