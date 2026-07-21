@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: public
+    tables:
+      - name: raw_routes
+      - name: raw_stops
+      - name: raw_calendar
+      - name: raw_direction
+      - name: raw_stop_times
+      - name: raw_trips

@@ -1,0 +1,6 @@
+SELECT
+    service_id,
+    monday, tuesday, wednesday, thursday, friday, saturday, sunday,
+    start_date,
+    end_date
+FROM {{ source('raw', 'raw_calendar') }}
