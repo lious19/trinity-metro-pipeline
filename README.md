@@ -1,6 +1,6 @@
 ﻿# Trinity Metro Data Pipeline
 
-![Dashboard](Screenshot 2026-07-21 180407.png)
+![Dashboard](Dashboard_screenshot.png)
 
 An end-to-end data engineering project...
 
